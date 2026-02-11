@@ -156,7 +156,7 @@
     display: flex;
     justify-content: center;
 }
-
+/* Color de las flechas Programas Médicos Increíbles*/
 .price-carousel .owl-nav .owl-prev,
 .price-carousel .owl-nav .owl-next{
     position: relative;
@@ -167,7 +167,7 @@
     align-items: center;
     justify-content: center;
     color: var(--primary);
-    background: #f30505;
+    background: #0d05f3;
     font-size: 22px;
     border-radius: 45px;
     transition: .5s;
