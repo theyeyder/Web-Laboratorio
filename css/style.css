@@ -270,7 +270,7 @@
   filter: drop-shadow(0 6px 12px rgba(15, 23, 42, 0.25));
 }
 
-/* WhatsApp Floating Button - Versión Mejorada */
+/* WhatsApp Floating Button - Versión Mejorada al maximo */
 .whatsapp-float {
   position: fixed;
   right: 18px;
@@ -397,7 +397,7 @@
   position: absolute;
   right: 70px;
   background: linear-gradient(135deg, #075e54, #128C7E);
-  color: white;
+  color: rgb(253, 253, 253);
   padding: 8px 16px;
   border-radius: 25px;
   font-size: 14px;
