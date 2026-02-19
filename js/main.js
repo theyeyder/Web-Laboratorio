@@ -102,6 +102,8 @@
     
 })(jQuery);
 
+ // Botón  -> WhatsApp mejorado
+
   document.addEventListener('DOMContentLoaded', function() {
     // Año dinámico
     const yearElement = document.getElementById('yearFooter');
@@ -114,7 +116,7 @@
     if (btnWhats) {
         btnWhats.addEventListener('click', function() {
             const phone = "573024175911";
-            let texto = "Hola, deseo comunicarme con Laboratorio-Mpr para recibir más información.";
+            let texto = "Hola, deseo comunicarme con Ustedes para recibir más información.";
             const url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(texto);
             window.open(url, "_blank");
         });
